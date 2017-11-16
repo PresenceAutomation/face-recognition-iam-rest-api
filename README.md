@@ -1,10 +1,8 @@
-#WORK IN PROGRESS
-
 # HyperVerge Secure - Face Recognition IAM API Documentation
 
 ## Overview
 
-This documentation describes Face Recognition IAM API v1. If you have any queries please contact support.
+This documentation describes Face Recognition IAM API v1. If you have any queries please contact support. The postman collection for the APIs can be found at the [link](https://www.getpostman.com/collections/e2e6dcd900269a633a9d)
 
 1. General
 2. Entities
