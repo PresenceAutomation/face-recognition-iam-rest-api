@@ -50,6 +50,6 @@ Recognize the person in the photo if it is one of people added to the group.
 			  --header 'tenantid: {{tenantid}}' \
 			  --header 'tenantkey: {{tenantkey}}' \
 			  --header 'token: {{token}}' \
-			  --form 'userId=+910123456789' \
-			  --form image=@image_path.jpg    	
+			  --form 'groupId=default' \
+			  --form image0=@image_path.jpg    	
     	
