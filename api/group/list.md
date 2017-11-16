@@ -25,7 +25,13 @@ List all groups in the tenantId
 		  "status": "success",
 		  "statusCode": "200",
 		  "result" : {
-		  	"groups" : []
+		  	"groups" : [{
+				"groupName" : "string",
+				"groupId" : "another-string",
+				"creationTime" : 1504777998527, // Unix time stamp
+				"userId" : "string",
+				"sizeLimit" : 100
+			}]
 		  }
 		}
 		```
@@ -40,6 +46,6 @@ List all groups in the tenantId
             --header 'tenantid: {{tenantid}}' \
             --header 'tenantkey: {{tenantkey}}' \
             --header 'token: {{token}}' \
-            --data '{"groupId":"0CwUv4L","userId":"+910123456789","groupRole":"user"}'
+            --data '{}'
     	
     	
