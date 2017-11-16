@@ -51,5 +51,5 @@ Verify the person in the image.
 			  --header 'tenantkey: {{tenantkey}}' \
 			  --header 'token: {{token}}' \
 			  --form 'userId=+910123456789' \
-			  --form image=@image_path.jpg    	
+			  --form image0=@image_path.jpg    	
     	
