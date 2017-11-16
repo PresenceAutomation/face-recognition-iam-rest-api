@@ -23,7 +23,7 @@ Register additional faces to the user to increase accuracy. Anywhere between 1-5
   * **Code:** 200 <br />
   * Schema : 
 		
-		```	
+			
 		{
 			"status" : "success",
 			"statusCode" : "200",
@@ -31,7 +31,7 @@ Register additional faces to the user to increase accuracy. Anywhere between 1-5
 				"faceId": "string-with-max-chars-40"
 			}
 		}
-		```
+		
 	
 
 * **Sample Call:**

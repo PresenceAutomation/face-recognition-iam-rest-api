@@ -21,7 +21,7 @@ Lists users in a group
   * **Code:** 200 <br />
   * Schema : 
 		
-		```	
+			
 		{
 		  "status": "success",
 		  "statusCode": "200",
@@ -38,7 +38,7 @@ Lists users in a group
 			}]
 		  }
 		}
-		```
+		
 	
 
 * **Sample Call:**

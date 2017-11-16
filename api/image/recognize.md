@@ -22,7 +22,7 @@ Recognize the person in the photo if it is one of people added to the group.
   * **Code:** 200 <br />
   * Schema : 
 		
-		```	
+			
 		{
 			“status”:“success”,
 			“statusCode”:“200",
@@ -38,7 +38,7 @@ Recognize the person in the photo if it is one of people added to the group.
 				}
 			]
 		}
-		```
+		
 	
 
 * **Sample Call:**

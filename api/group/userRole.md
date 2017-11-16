@@ -24,12 +24,12 @@ Change the role of the user in the group to either "user" or "groupAdmin"
   * **Code:** 200 <br />
   * Schema : 
 		
-		```	
+			
 		{
 		  "status": "success",
 		  "statusCode": "200"
 		}
-		```
+		
 	
 
 * **Sample Call:**

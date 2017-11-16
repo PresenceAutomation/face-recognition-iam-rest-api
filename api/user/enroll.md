@@ -29,7 +29,7 @@ Register a new user with the tenant and add the user to a group.
   * **Code:** 200 <br />
   * Schema : 
 		
-		```	
+			
 		{
 			"status" : "success",
 			"statusCode" : "200",
@@ -40,7 +40,7 @@ Register a new user with the tenant and add the user to a group.
 				}]
 			}
 		}
-		```
+		
 	
 
 * **Sample Call:**

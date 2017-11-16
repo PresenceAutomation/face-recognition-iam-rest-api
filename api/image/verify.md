@@ -22,7 +22,7 @@ Verify the person in the image.
   * **Code:** 200 <br />
   * Schema : 
 		
-		```	
+			
 		{
 			“status”:“success”,
 			“statusCode”:“200",
@@ -38,7 +38,7 @@ Verify the person in the image.
 				}
 			]
 		}
-		```
+		
 	
 
 * **Sample Call:**

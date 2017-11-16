@@ -23,7 +23,7 @@ Create a group with a name and limit. The limit is still not yet enforced, will 
   * **Code:** 200 <br />
   * Schema : 
 		
-		```	
+			
 		{
 		  "status": "success",
 		  "statusCode": "200",
@@ -31,7 +31,7 @@ Create a group with a name and limit. The limit is still not yet enforced, will 
 		    "groupId": "weryui4589fgh"
 		  }
 		}
-		```
+		
 	
 
 * **Sample Call:**

@@ -22,12 +22,12 @@ Delete the group. But retain the users in the tenant.
   * **Code:** 200 <br />
   * Schema : 
 		
-		```	
+			
 		{
 		  "status": "success",
 		  "statusCode": "200"
 		}
-		```
+		
 	
 
 * **Sample Call:**

@@ -23,7 +23,7 @@ If the tenant uses phone numbers as userId, then this API call can be used to ob
   * **Code:** 200 <br />
   * Schema : 
 		
-		```	
+			
 		{
 			"status" : "success",
 			"statusCode" : "200",
@@ -31,7 +31,7 @@ If the tenant uses phone numbers as userId, then this API call can be used to ob
 				"token": "*************************************"
 			}
 		}
-		```
+		
 	
 
 * **Sample Call:**

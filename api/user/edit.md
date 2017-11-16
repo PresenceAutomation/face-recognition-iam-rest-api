@@ -22,12 +22,12 @@ Edit the user details with this API call.
   * **Code:** 200 <br />
   * Schema : 
 		
-		```	
+			
 		{
 		  "status": "success",
 		  "statusCode": "200"
 		}
-		```
+		
 	
 
 * **Sample Call:**

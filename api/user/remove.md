@@ -22,12 +22,12 @@ The user can be de-registered from the tenant with this API call.
   * **Code:** 200 <br />
   * Schema : 
 		
-		```	
+			
 		{
 			"status" : "success",
 			"statusCode" : "200"
 		}
-		```
+		
 	
 
 * **Sample Call:**

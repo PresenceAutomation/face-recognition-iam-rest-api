@@ -23,12 +23,12 @@ Currently the supported roles are `user` and `admin`. This API call is used set 
   * **Code:** 200 <br />
   * Schema : 
 		
-		```	
+			
 		{
 			"status" : "success",
 			"statusCode" : "200"
 		}
-		```
+		
 	
 
 * **Sample Call:**

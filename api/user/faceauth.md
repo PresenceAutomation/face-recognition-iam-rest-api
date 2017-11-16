@@ -24,7 +24,7 @@ Once the user's face(s) are registered with either enroll or addFace API, this A
   * **Code:** 200 <br />
   * Schema : 
 		
-		```	
+			
 		{
 			"status" : "success",
 			"statusCode" : "200",
@@ -32,7 +32,7 @@ Once the user's face(s) are registered with either enroll or addFace API, this A
 				"token": "*************************************"
 			}
 		}
-		```
+		
 	
 
 * **Sample Call:**

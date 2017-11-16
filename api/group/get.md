@@ -23,7 +23,7 @@ Obtain all information about the group.
   * **Code:** 200 <br />
   * Schema : 
 		
-		```	
+			
 		{
 		  "status": "success",
 		  "statusCode": "200",
@@ -38,7 +38,7 @@ Obtain all information about the group.
 		    ]
 		  }
 		}
-		```
+		
 	
 
 * **Sample Call:**

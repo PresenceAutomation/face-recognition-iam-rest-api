@@ -23,12 +23,12 @@ Register a new user with the tenant. This performs a subset of actions performed
   * **Code:** 200 <br />
   * Schema : 
 		
-		```	
+			
 		{
 			"status" : "success",
 			"statusCode" : "200",
 		}
-		```
+		
 	
 
 * **Sample Call:**

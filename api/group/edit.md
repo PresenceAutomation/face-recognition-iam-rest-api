@@ -25,12 +25,12 @@ Edit Name and Size Limit.
   * **Code:** 200 <br />
   * Schema : 
 		
-		```	
+			
 		{
 		  "status": "success",
 		  "statusCode": "200"
 		}
-		```
+		
 	
 
 * **Sample Call:**

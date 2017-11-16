@@ -20,7 +20,7 @@ List all groups in the tenantId
   * **Code:** 200 <br />
   * Schema : 
 		
-		```	
+			
 		{
 		  "status": "success",
 		  "statusCode": "200",
@@ -34,7 +34,7 @@ List all groups in the tenantId
 			}]
 		  }
 		}
-		```
+		
 	
 
 * **Sample Call:**

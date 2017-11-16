@@ -24,12 +24,12 @@ Remove a face from the user by providing the faceId.
   * **Code:** 200 <br />
   * Schema : 
 		
-		```	
+			
 		{
 			"status" : "success",
 			"statusCode" : "200"
 		}
-		```
+		
 	
 
 * **Sample Call:**
