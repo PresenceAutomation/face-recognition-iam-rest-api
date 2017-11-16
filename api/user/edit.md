@@ -1,5 +1,6 @@
 ## /user/edit
 
+Edit the user details with this API call.
 
 * **URL** : `/user/edit`
   
@@ -33,7 +34,7 @@
 
    	
     	curl --request POST \
-  			--url 'http://iam.hyperverge.co/v1/user/auth' \
+  			--url 'http://iam.hyperverge.co/v1/user/edit' \
             --header 'content-type: application/json' \
             --header 'tenantid: {{tenantid}}' \
             --header 'tenantkey: {{tenantkey}}' \
