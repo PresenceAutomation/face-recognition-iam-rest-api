@@ -1,6 +1,6 @@
 ## /user/role
 
-Currently the supported roles are user and admin. This API call is used set the role of the user.
+Currently the supported roles are `user` and `admin`. This API call is used set the role of the user.
 
 * **URL** : `/user/role`
   
