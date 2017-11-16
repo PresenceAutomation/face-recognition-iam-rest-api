@@ -59,8 +59,6 @@ A normal user of the system can:<br>
 
 * Edit his/her details
 * Add or remove his/her faces
-<br>
-
 
 
 ## Authentication
