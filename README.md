@@ -12,9 +12,7 @@ This documentation describes Face Recognition IAM API v1. If you have any querie
 1. Root Endpoint
 1. Authentication and Authorization
 1. Media Types
-3. Supported Endpoints
-3. Supported kyc_types 
-2. Optional Parameters
+3. Supported APIs
 <!-- 3. API wrappers and sample code snippets (Beta) -->
 
 ## General 
