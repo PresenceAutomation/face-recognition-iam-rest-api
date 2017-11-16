@@ -45,7 +45,7 @@ Verify the person in the image.
 
    	
     	curl --request POST \
-			  --url 'http://iam.hyperverge.co/image/verify' \
+			  --url 'http://iam.hyperverge.co/v1/image/verify' \
 			  --header 'content-type: multipart/form-data \
 			  --header 'tenantid: {{tenantid}}' \
 			  --header 'tenantkey: {{tenantkey}}' \

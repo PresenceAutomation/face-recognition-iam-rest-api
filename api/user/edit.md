@@ -33,7 +33,7 @@
 
    	
     	curl --request POST \
-  			--url 'http://iam.hyperverge.co/user/auth' \
+  			--url 'http://iam.hyperverge.co/v1/user/auth' \
             --header 'content-type: application/json' \
             --header 'tenantid: {{tenantid}}' \
             --header 'tenantkey: {{tenantkey}}' \

@@ -45,7 +45,7 @@ Recognize the person in the photo if it is one of people added to the group.
 
    	
     	curl --request POST \
-			  --url 'http://iam.hyperverge.co/image/recognize' \
+			  --url 'http://iam.hyperverge.co/v1/image/recognize' \
 			  --header 'content-type: multipart/form-data \
 			  --header 'tenantid: {{tenantid}}' \
 			  --header 'tenantkey: {{tenantkey}}' \

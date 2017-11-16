@@ -36,7 +36,7 @@ Lists users in a group
 
    	
     	curl --request POST \
-  			  --url 'http://iam.hyperverge.co/group/list' \
+  			  --url 'http://iam.hyperverge.co/v1/group/list' \
             --header 'content-type: application/json' \
             --header 'tenantid: {{tenantid}}' \
             --header 'tenantkey: {{tenantkey}}' \

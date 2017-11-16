@@ -45,7 +45,7 @@ Obtain all information about the group.
 
    	
     	curl --request POST \
-  			  --url 'http://iam.hyperverge.co/group/get' \
+  			  --url 'http://iam.hyperverge.co/v1/group/get' \
             --header 'content-type: application/json' \
             --header 'tenantid: {{tenantid}}' \
             --header 'tenantkey: {{tenantkey}}' \

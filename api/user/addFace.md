@@ -1,6 +1,6 @@
 ## /user/addFace
 
-Register additional faces to the user to increase accuracy. Anywhere between 1-5 faces would be sufficient in most scenarios. Additionally, the registered face can be accessed at {{url}}/faceId.jpg, the faceId would be provided back in the response. If the face is not detected by the system then the faceId would not be present in the response.
+Register additional faces to the user to increase accuracy. Anywhere between 1-5 faces would be sufficient in most scenarios. Additionally, the registered face can be accessed at http://iam.hyperverge.co/v1/v1/faceId.jpg, the faceId would be provided back in the response. If the face is not detected by the system then the faceId would not be present in the response.
 
 * **URL** : `/user/addFace`
   

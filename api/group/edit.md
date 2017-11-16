@@ -37,7 +37,7 @@ Edit Name and Size Limit.
 
    	
     	curl --request POST \
-  			  --url 'http://iam.hyperverge.co/group/edit' \
+  			  --url 'http://iam.hyperverge.co/v1/group/edit' \
             --header 'content-type: application/json' \
             --header 'tenantid: {{tenantid}}' \
             --header 'tenantkey: {{tenantkey}}' \

@@ -35,7 +35,7 @@ Register a new user with the tenant. This performs a subset of actions performed
 
    	
     	curl --request POST \
-  			  --url 'http://{{url}}/user/create' \
+  			  --url 'http://iam.hyperverge.co/v1/user/create' \
             --header 'content-type: application/json' \
             --header 'tenantid: {{tenantid}}' \
             --header 'tenantkey: {{tenantkey}}' \

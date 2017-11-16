@@ -35,7 +35,7 @@ Add an existing user to an existing group.
 
    	
     	curl --request POST \
-  			  --url 'http://iam.hyperverge.co/user/getOTP' \
+  			  --url 'http://iam.hyperverge.co/v1/user/getOTP' \
             --header 'content-type: application/json' \
             --header 'tenantid: {{tenantid}}' \
             --header 'tenantkey: {{tenantkey}}' \
