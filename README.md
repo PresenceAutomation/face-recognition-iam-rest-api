@@ -8,10 +8,11 @@ This documentation describes Face Recognition IAM API v1. If you have any querie
 
 1. General
 2. Entities
+1. Authentication
+1. Authorization
 1. Parameters
-1. Root Endpoint
-1. Authentication and Authorization
 1. Media Types
+1. Root Endpoint
 3. Supported APIs
 <!-- 3. API wrappers and sample code snippets (Beta) -->
 
@@ -75,6 +76,9 @@ All API calls requiring authorization need a `token` to be sent with the header.
 
 ## Parameters
 All optional and compulsory parameters are passed as part of the request body.
+
+## Media Types
+Supported image formats by the API calls : jpeg, png and tiff
 
 ## Root Endpoint
 A `GET` request can be issued to the root endpoint to check for successful connection : 
