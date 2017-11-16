@@ -1,8 +1,8 @@
 ## /image/verify
 
-Verify the person in the image.
+Recognize the person in the photo if it is one of people added to the group.
 
-* **URL** : `/image/verify`
+* **URL** : `/image/recognize`
   
 * **Method:** `POST`
 
@@ -15,7 +15,7 @@ Verify the person in the image.
 	
 * **Request Body**
 	- image
-	- userId
+	- groupId
 	  
 * **Success Response:**
 
@@ -45,11 +45,11 @@ Verify the person in the image.
 
    	
     	curl --request POST \
-			  --url 'https://iam.hyperverge.co/v1/image/verify' \
+			  --url 'http://iam.hyperverge.co/v1/image/recognize' \
 			  --header 'content-type: multipart/form-data \
 			  --header 'tenantid: {{tenantid}}' \
 			  --header 'tenantkey: {{tenantkey}}' \
 			  --header 'token: {{token}}' \
-			  --form 'userId=+910123456789' \
+			  --form 'groupId=default' \
 			  --form image0=@image_path.jpg    	
     	

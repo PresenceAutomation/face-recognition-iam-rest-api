@@ -34,7 +34,7 @@ Add an existing user to an existing group.
 
    	
     	curl --request POST \
-  			  --url 'http://iam.hyperverge.co/v1/group/addUser' \
+  			  --url 'https://iam.hyperverge.co/v1/group/addUser' \
             --header 'content-type: application/json' \
             --header 'tenantid: {{tenantid}}' \
             --header 'tenantkey: {{tenantkey}}' \

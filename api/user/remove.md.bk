@@ -1,8 +1,8 @@
-## /group/edit
+## /user/remove
 
-Edit Name and Size Limit.
+The user can be de-registered from the tenant with this API call.
 
-* **URL** : `/group/edit`
+* **URL** : `/user/remove`
   
 * **Method:** `POST`
 
@@ -15,10 +15,7 @@ Edit Name and Size Limit.
 	
 * **Request Body**
 
-	- groupId
-	- params
-		- groupName
-		- sizeLimit 	
+	- userId
 	  
 * **Success Response:**
 
@@ -27,8 +24,8 @@ Edit Name and Size Limit.
 		
 		```	
 		{
-		  "status": "success",
-		  "statusCode": "200"
+			"status" : "success",
+			"statusCode" : "200"
 		}
 		```
 	
@@ -37,17 +34,11 @@ Edit Name and Size Limit.
 
    	
     	curl --request POST \
-  			  --url 'https://iam.hyperverge.co/v1/group/edit' \
+  			  --url 'http://iam.hyperverge.co/v1/user/remove' \
             --header 'content-type: application/json' \
             --header 'tenantid: {{tenantid}}' \
             --header 'tenantkey: {{tenantkey}}' \
             --header 'token: {{token}}' \
-            --data '{
-					"groupId":"facetestaccess1500894070054914",
-					"params":{
-						"groupName":"PV96YXVwRB",
-						"sizeLimit":631
-					}
-				}'
+            --data '{"userId":"+910123456789"}'
     	
     	

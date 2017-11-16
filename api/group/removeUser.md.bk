@@ -1,8 +1,8 @@
-## /group/edit
+## /group/removeUser
 
-Edit Name and Size Limit.
+Remove user from the group but retain in the tenant.
 
-* **URL** : `/group/edit`
+* **URL** : `/group/removeUser`
   
 * **Method:** `POST`
 
@@ -14,11 +14,8 @@ Edit Name and Size Limit.
 	- token
 	
 * **Request Body**
-
 	- groupId
-	- params
-		- groupName
-		- sizeLimit 	
+	- userId
 	  
 * **Success Response:**
 
@@ -37,17 +34,11 @@ Edit Name and Size Limit.
 
    	
     	curl --request POST \
-  			  --url 'https://iam.hyperverge.co/v1/group/edit' \
+  			  --url 'http://iam.hyperverge.co/v1/group/removeUser' \
             --header 'content-type: application/json' \
             --header 'tenantid: {{tenantid}}' \
             --header 'tenantkey: {{tenantkey}}' \
             --header 'token: {{token}}' \
-            --data '{
-					"groupId":"facetestaccess1500894070054914",
-					"params":{
-						"groupName":"PV96YXVwRB",
-						"sizeLimit":631
-					}
-				}'
+            --data '{"groupId":"0CwUv4L","userId":"+910123456789"}'
     	
     	

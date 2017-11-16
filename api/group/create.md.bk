@@ -1,8 +1,8 @@
-## /group/edit
+## /group/create
 
-Edit Name and Size Limit.
+Create a group with a name and limit. The limit is still not yet enforced, will be enforced soon. The response would include the groupId which will be the unique identifier for the group for future reference.
 
-* **URL** : `/group/edit`
+* **URL** : `/group/create`
   
 * **Method:** `POST`
 
@@ -15,10 +15,8 @@ Edit Name and Size Limit.
 	
 * **Request Body**
 
-	- groupId
-	- params
-		- groupName
-		- sizeLimit 	
+	- groupName
+	- sizeLimit
 	  
 * **Success Response:**
 
@@ -28,7 +26,10 @@ Edit Name and Size Limit.
 		```	
 		{
 		  "status": "success",
-		  "statusCode": "200"
+		  "statusCode": "200",
+		  "result": {
+		    "groupId": "weryui4589fgh"
+		  }
 		}
 		```
 	
@@ -37,17 +38,11 @@ Edit Name and Size Limit.
 
    	
     	curl --request POST \
-  			  --url 'https://iam.hyperverge.co/v1/group/edit' \
+  			  --url 'http://iam.hyperverge.co/v1/group/create' \
             --header 'content-type: application/json' \
             --header 'tenantid: {{tenantid}}' \
             --header 'tenantkey: {{tenantkey}}' \
             --header 'token: {{token}}' \
-            --data '{
-					"groupId":"facetestaccess1500894070054914",
-					"params":{
-						"groupName":"PV96YXVwRB",
-						"sizeLimit":631
-					}
-				}'
+            --data '{"groupName":"facetestaccess","sizeLimit":100}'
     	
     	

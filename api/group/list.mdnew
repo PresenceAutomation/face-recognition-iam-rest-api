@@ -35,7 +35,7 @@ List all groups in the tenantId
 
    	
     	curl --request POST \
-  			  --url 'http://iam.hyperverge.co/v1/group/list' \
+  			  --url 'https://iam.hyperverge.co/v1/group/list' \
             --header 'content-type: application/json' \
             --header 'tenantid: {{tenantid}}' \
             --header 'tenantkey: {{tenantkey}}' \

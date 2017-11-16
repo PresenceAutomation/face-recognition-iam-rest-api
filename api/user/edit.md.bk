@@ -1,8 +1,8 @@
-## /group/edit
+## /user/edit
 
-Edit Name and Size Limit.
+Edit the user details with this API call.
 
-* **URL** : `/group/edit`
+* **URL** : `/user/edit`
   
 * **Method:** `POST`
 
@@ -15,11 +15,8 @@ Edit Name and Size Limit.
 	
 * **Request Body**
 
-	- groupId
-	- params
-		- groupName
-		- sizeLimit 	
-	  
+	- userId
+  
 * **Success Response:**
 
   * **Code:** 200 <br />
@@ -37,17 +34,12 @@ Edit Name and Size Limit.
 
    	
     	curl --request POST \
-  			  --url 'https://iam.hyperverge.co/v1/group/edit' \
+  			--url 'http://iam.hyperverge.co/v1/user/edit' \
             --header 'content-type: application/json' \
             --header 'tenantid: {{tenantid}}' \
             --header 'tenantkey: {{tenantkey}}' \
-            --header 'token: {{token}}' \
-            --data '{
-					"groupId":"facetestaccess1500894070054914",
-					"params":{
-						"groupName":"PV96YXVwRB",
-						"sizeLimit":631
-					}
-				}'
+            --data '{"userId":"+910123456789","details":"some string that you want to store"}'
+
+
     	
     	

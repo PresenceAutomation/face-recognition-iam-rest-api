@@ -1,8 +1,8 @@
-## /group/edit
+## /group/listUsers
 
-Edit Name and Size Limit.
+Lists users in a group
 
-* **URL** : `/group/edit`
+* **URL** : `/group/listUsers`
   
 * **Method:** `POST`
 
@@ -14,11 +14,7 @@ Edit Name and Size Limit.
 	- token
 	
 * **Request Body**
-
-	- groupId
-	- params
-		- groupName
-		- sizeLimit 	
+	- groupId	
 	  
 * **Success Response:**
 
@@ -28,7 +24,19 @@ Edit Name and Size Limit.
 		```	
 		{
 		  "status": "success",
-		  "statusCode": "200"
+		  "statusCode": "200",
+		  "result" : {
+		  	"users" : [{
+				"userId" : "string",
+				"details" : "string",
+				"roles" : ["user/admin"],
+				"groups" : [{
+					"groupId" : "string",
+					"role" : "user/groupAdmin"
+				}],
+				"faces" : ["string"]
+			}]
+		  }
 		}
 		```
 	
@@ -37,17 +45,11 @@ Edit Name and Size Limit.
 
    	
     	curl --request POST \
-  			  --url 'https://iam.hyperverge.co/v1/group/edit' \
+  			  --url 'http://iam.hyperverge.co/v1/group/listUsers' \
             --header 'content-type: application/json' \
             --header 'tenantid: {{tenantid}}' \
             --header 'tenantkey: {{tenantkey}}' \
             --header 'token: {{token}}' \
-            --data '{
-					"groupId":"facetestaccess1500894070054914",
-					"params":{
-						"groupName":"PV96YXVwRB",
-						"sizeLimit":631
-					}
-				}'
+            --data '{"groupId":"0CwUv4L","userId":"+910123456789","groupRole":"user"}'
     	
     	

@@ -1,8 +1,9 @@
-## /group/edit
+## /user/removeFace
 
-Edit Name and Size Limit.
+Remove a face from the user by providing the faceId.
 
-* **URL** : `/group/edit`
+
+* **URL** : `/user/removeFace`
   
 * **Method:** `POST`
 
@@ -15,10 +16,8 @@ Edit Name and Size Limit.
 	
 * **Request Body**
 
-	- groupId
-	- params
-		- groupName
-		- sizeLimit 	
+	- userId
+	- faceId
 	  
 * **Success Response:**
 
@@ -27,8 +26,8 @@ Edit Name and Size Limit.
 		
 		```	
 		{
-		  "status": "success",
-		  "statusCode": "200"
+			"status" : "success",
+			"statusCode" : "200"
 		}
 		```
 	
@@ -37,17 +36,11 @@ Edit Name and Size Limit.
 
    	
     	curl --request POST \
-  			  --url 'https://iam.hyperverge.co/v1/group/edit' \
+  			  --url 'http://iam.hyperverge.co/v1/user/removeFace' \
             --header 'content-type: application/json' \
             --header 'tenantid: {{tenantid}}' \
             --header 'tenantkey: {{tenantkey}}' \
             --header 'token: {{token}}' \
-            --data '{
-					"groupId":"facetestaccess1500894070054914",
-					"params":{
-						"groupName":"PV96YXVwRB",
-						"sizeLimit":631
-					}
-				}'
+            --data '{"userId":"+910123456789", "faceId" : "testId"}'
     	
     	
