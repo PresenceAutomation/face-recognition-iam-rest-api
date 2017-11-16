@@ -1,6 +1,6 @@
 ## /user/removeFace
 
-Remove a from the user by providing the faceId.
+Remove a face from the user by providing the faceId.
 
 
 * **URL** : `/user/removeFace`
