@@ -81,7 +81,7 @@ Supported image formats by the API calls : jpeg, png and tiff
 ## Root Endpoint
 A `GET` request can be issued to the root endpoint to check for successful connection : 
 
-	 curl https://iam.hyperverge.co/v1 
+	 curl https://in.secure.hyperverge.co/iam/v1 
 
 The `plain/text` reponse of `"AoK!"` should be received.
 

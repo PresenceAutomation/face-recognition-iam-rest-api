@@ -38,7 +38,7 @@ Create a group with a name and limit. The limit is still not yet enforced, will 
 
    	
     	curl --request POST \
-  			  --url 'https://iam.hyperverge.co/v1/group/create' \
+  			  --url 'https://in.secure.hyperverge.co/iam/v1/group/create' \
             --header 'content-type: application/json' \
             --header 'tenantid: {{tenantid}}' \
             --header 'tenantkey: {{tenantkey}}' \

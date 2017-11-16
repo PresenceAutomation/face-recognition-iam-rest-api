@@ -36,7 +36,7 @@ Remove a face from the user by providing the faceId.
 
    	
     	curl --request POST \
-  			  --url 'https://iam.hyperverge.co/v1/user/removeFace' \
+  			  --url 'https://in.secure.hyperverge.co/iam/v1/user/removeFace' \
             --header 'content-type: application/json' \
             --header 'tenantid: {{tenantid}}' \
             --header 'tenantkey: {{tenantkey}}' \

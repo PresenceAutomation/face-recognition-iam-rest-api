@@ -50,7 +50,7 @@
 
    	
     	curl --request POST \
-  			  --url 'https://iam.hyperverge.co/v1/user/get' \
+  			  --url 'https://in.secure.hyperverge.co/iam/v1/user/get' \
             --header 'content-type: application/json' \
             --header 'tenantid: {{tenantid}}' \
             --header 'tenantkey: {{tenantkey}}' \

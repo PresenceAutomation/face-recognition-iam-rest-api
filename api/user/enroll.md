@@ -46,7 +46,7 @@ Register a new user with the tenant and add the user to a group.
 * **Sample Call:**
 
    	
-    	curl -X POST https://iam.hyperverge.co/v1/user/enroll \
+    	curl -X POST https://in.secure.hyperverge.co/iam/v1/user/enroll \
 			  -H 'tenantid: xxx' \
 		  	  -H 'tenantkey: yyyy' \
 		  	  -H 'token: zzzz' \

@@ -1,6 +1,6 @@
 ## /user/addFace
 
-Register additional faces to the user to increase accuracy. Anywhere between 1-5 faces would be sufficient in most scenarios. Additionally, the registered face can be accessed at https://iam.hyperverge.co/v1/faceId.jpg, the faceId would be provided back in the response. If the face is not detected by the system then the faceId would not be present in the response.
+Register additional faces to the user to increase accuracy. Anywhere between 1-5 faces would be sufficient in most scenarios. Additionally, the registered face can be accessed at https://in.secure.hyperverge.co/iam/v1/faceId.jpg, the faceId would be provided back in the response. If the face is not detected by the system then the faceId would not be present in the response.
 
 * **URL** : `/user/addFace`
   
@@ -38,7 +38,7 @@ Register additional faces to the user to increase accuracy. Anywhere between 1-5
 
    	
     	curl --request POST \
-			--url 'https://iam.hyperverge.co/user/addFace' \
+			--url 'https://in.secure.hyperverge.co/iam/user/addFace' \
 			--header 'content-type: multipart/form-data' \
 			--header 'tenantid: {{tenantid}}' \
 			--header 'tenantkey: {{tenantkey}}' \

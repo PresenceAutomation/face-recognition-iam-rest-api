@@ -34,7 +34,7 @@ Delete the group. But retain the users in the tenant.
 
    	
     	curl --request POST \
-  			  --url 'https://iam.hyperverge.co/v1/group/remove' \
+  			  --url 'https://in.secure.hyperverge.co/iam/v1/group/remove' \
             --header 'content-type: application/json' \
             --header 'tenantid: {{tenantid}}' \
             --header 'tenantkey: {{tenantkey}}' \

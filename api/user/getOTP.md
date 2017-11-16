@@ -33,7 +33,7 @@ If the tenant uses the phone numbers as userIds then this API can be utilized fo
 
    	
     	curl --request POST \
-  			  --url 'https://iam.hyperverge.co/v1/user/getOTP' \
+  			  --url 'https://in.secure.hyperverge.co/iam/v1/user/getOTP' \
             --header 'content-type: application/json' \
             --header 'tenantid: {{tenantid}}' \
             --header 'tenantkey: {{tenantkey}}' \

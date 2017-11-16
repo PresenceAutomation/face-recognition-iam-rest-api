@@ -35,7 +35,7 @@ Currently the supported roles are `user` and `admin`. This API call is used set 
 
    	
     	curl --request POST \
-  			  --url 'https://iam.hyperverge.co/v1/user/role' \
+  			  --url 'https://in.secure.hyperverge.co/iam/v1/user/role' \
             --header 'content-type: application/json' \
             --header 'tenantid: {{tenantid}}' \
             --header 'tenantkey: {{tenantkey}}' \

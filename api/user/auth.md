@@ -38,7 +38,7 @@ If the tenant uses phone numbers as userId, then this API call can be used to ob
 
    	
     	curl --request POST \
-  			  --url 'https://iam.hyperverge.co/v1/user/auth' \
+  			  --url 'https://in.secure.hyperverge.co/iam/v1/user/auth' \
             --header 'content-type: application/json' \
             --header 'tenantid: {{tenantid}}' \
             --header 'tenantkey: {{tenantkey}}' \

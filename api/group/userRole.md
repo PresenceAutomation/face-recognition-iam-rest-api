@@ -36,7 +36,7 @@ Change the role of the user in the group to either "user" or "groupAdmin"
 
    	
     	curl --request POST \
-  			  --url 'https://iam.hyperverge.co/v1/group/userRole' \
+  			  --url 'https://in.secure.hyperverge.co/iam/v1/group/userRole' \
             --header 'content-type: application/json' \
             --header 'tenantid: {{tenantid}}' \
             --header 'tenantkey: {{tenantkey}}' \

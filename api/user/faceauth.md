@@ -39,7 +39,7 @@ Once the user's face(s) are registered with either enroll or addFace API, this A
 
    	
     	curl --request POST \
-			--url 'https://iam.hyperverge.co/v1/user/faceauth' \
+			--url 'https://in.secure.hyperverge.co/iam/v1/user/faceauth' \
 			--header 'content-type: multipart/form-data' \
 			--header 'tenantid: {{tenantid}}' \
 			--header 'tenantkey: {{tenantkey}}' \
