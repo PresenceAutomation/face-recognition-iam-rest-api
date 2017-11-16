@@ -22,20 +22,19 @@ Add an existing user to an existing group.
 
   * **Code:** 200 <br />
   * Schema : 
-		
-		```	
+			
 		{
 		  "status": "success",
 		  "statusCode": "200"
 		}
-		```
+		
 	
 
 * **Sample Call:**
 
    	
     	curl --request POST \
-  			  --url 'http://iam.hyperverge.co/v1/user/getOTP' \
+  			  --url 'http://iam.hyperverge.co/v1/group/addUser' \
             --header 'content-type: application/json' \
             --header 'tenantid: {{tenantid}}' \
             --header 'tenantkey: {{tenantkey}}' \
