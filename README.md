@@ -15,7 +15,7 @@ This documentation describes Face Recognition IAM API v1. If you have any querie
 3. Supported Endpoints
 3. Supported kyc_types 
 2. Optional Parameters
-3. API wrappers and sample code snippets (Beta)
+<!-- 3. API wrappers and sample code snippets (Beta) -->
 
 ## General 
 We recommend using HTTPS for all API access. All responses will be in JSON format, and all image uploads are to be performed as form-data (POST request). APIs without image uploads use application/json. Each individual API is explained in detail in the following section.
@@ -26,16 +26,16 @@ There are 3 types of entities in this system.
 
 1. User
 2. Group
-3. Organization
+3. Tenant 
 
 ##### 1. User
-When an organization registers, an `admin user` is generated and credentials are provided to the organization's PoC, along with the `organizationId`. Using this more users can be registered into the system. Any person registered into an organization is by default a `user`. Further, the user can be made an `admin` or `groupAdmin`(discussed in 2.); these `roles` are assigned to the `user` to allow different levels of access to the system. `admin` and `groupAdmin` are allowed to create and register users. Similarly, the `admin` can re-register a user at a later time and also give the `user` the ability to re-add more of his/her faces at a later stage.
+When an organization registers, an `admin user` is generated and credentials are provided to the organization's PoC, along with the `tenantId`. Using this more users can be registered into the system. Any person registered into a tenant is by default a `user`. Further, the user can be made an `admin` or `groupAdmin`(discussed in 2.); these `roles` are assigned to the `user` to allow different levels of access to the system. `admin` and `groupAdmin` are allowed to create and register users. Similarly, the `admin` can re-register a user at a later time and also give the `user` the ability to re-add more of his/her faces at a later stage.
 
 ##### 2. Group
 A `group` can represent a team or site or location or building or any other collection of people. While the `user` is used to authenticate a person, `group` is used for authorization and access. For instance, only `users` added to group `lab` would be allowed into a 'lab', in which case a person is authenticated as a user and then checked if he should be provided access to the 'lab' based on whether he/she is present in the group `lab`. The `groupAdmin` are the gate keepers to the group. They have the ability to provide access to any `user` or revoke as well. `groups` and `groupAdmin` are created by `admin`.
 
-##### 3. Organization
-All groups and users come under a single organization. The organization is created by the support team at HyperVerge or one of its partners. The `admin` are the gatekeepers to the organization. On creation, an `organizationId` is generated and would be shared.
+##### 3. Tenant
+All groups and users come under a single tenant. The tenant refers to the organization that is being registered on the platform. The tenant is created by the support team at HyperVerge or one of its partners. The `admin` are the gatekeepers to the organization. On creation, an `tenantId` is generated and would be shared.
 <br>
 
 ---
@@ -87,17 +87,17 @@ The `plain/text` reponse of `"AoK!"` should be received.
 
 ## Supported APIs
 - user
- - [/user/enroll](api/user/enroll.md)
- - [/user/create](api/user/create.md)
- - [/user/auth](api/user/auth.md)
- - [/user/faceauth](api/user/faceauth.md)
- - [/user/remove](api/user/remove.md)
- - [/user/get](api/user/get.md)
- - [/user/edit](api/user/edit.md)
- - [/user/addFace](api/user/addFace.md)
- - [/user/removeFace](api/user/removeFace.md)
- - [/user/role](api/user/role.md)
- - [/user/getOTP](api/user/getOTP.md)
+ 	- [/user/enroll](api/user/enroll.md)
+ 	- [/user/create](api/user/create.md)
+ 	- [/user/auth](api/user/auth.md)
+ 	- [/user/faceauth](api/user/faceauth.md)
+ 	- [/user/remove](api/user/remove.md)
+ 	- [/user/get](api/user/get.md)
+ 	- [/user/edit](api/user/edit.md)
+ 	- [/user/addFace](api/user/addFace.md)
+ 	- [/user/removeFace](api/user/removeFace.md)
+	- [/user/role](api/user/role.md)
+ 	- [/user/getOTP](api/user/getOTP.md)
 - group
  - [/group/create](api/group/create.md)
  - [/group/addUser](api/group/addUser.md)
