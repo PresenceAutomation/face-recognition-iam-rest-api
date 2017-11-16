@@ -1,6 +1,6 @@
 ## /user/auth
 
-If the tenant uses phone numbers as userId, then this API call can be used to obtain the user token. This has to be called post the /user/getOTP api call.
+If the tenant uses phone numbers as userId, then this API call can be used to obtain the user token. This has to be called after the /user/getOTP api call.
 
 * **URL** : `/user/auth`
   
