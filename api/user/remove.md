@@ -34,7 +34,7 @@ The user can be de-registered from the tenant with this API call.
 
    	
     	curl --request POST \
-  			  --url 'http://iam.hyperverge.co/v1/user/auth' \
+  			  --url 'http://iam.hyperverge.co/v1/user/remove' \
             --header 'content-type: application/json' \
             --header 'tenantid: {{tenantid}}' \
             --header 'tenantkey: {{tenantkey}}' \
