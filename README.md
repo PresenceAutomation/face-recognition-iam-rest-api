@@ -107,6 +107,6 @@ The `plain/text` reponse of `"AoK!"` should be received.
 	- [/group/listUsers](api/group/listUsers.md)
  	- [/group/removeUser](api/group/removeUser.md)
 - image
- 	- [image/recognize](api/image/recognize.md)
- 	- [image/verify](api/image/verify.md)
+ 	- [/image/recognize](api/image/recognize.md)
+ 	- [/image/verify](api/image/verify.md)
 
