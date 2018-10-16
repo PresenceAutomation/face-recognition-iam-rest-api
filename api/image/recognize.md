@@ -1,4 +1,4 @@
-## /image/verify
+## /image/recognize
 
 Recognize the person in the photo if it is one of people added to the group.
 
